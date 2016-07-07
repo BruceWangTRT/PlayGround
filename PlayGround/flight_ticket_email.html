@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html style="background-color: #F7F7F7;">
+<head>
+</head>
+<body style="margin: 0;font-family: sans-serif;font-size: 1.1em;line-height: inherit;">
+<div class="full-container" style="background-color: #F7F7F7;text-align: left;box-sizing: border-box;padding-top: 10px;">
+    <div class="top-container" style="margin: 0 auto;max-width: 700px;box-sizing: border-box;">
+        <div class="header-image-container" style="box-sizing: border-box;max-width: 700px;">
+            <img src="eticket_header.png" style="box-sizing: border-box;">
+        </div>
+        <div class="main-content" style="box-sizing: border-box;padding: 10px;font-size: 14px;">
+
+            <div class="ticket-and-date" style="box-sizing: border-box;font-size: 12px;color: #0f3d4b;">
+                <div class="fulfilled-by" style="box-sizing: border-box;font-size: 1.5em;font-weight: bold;">Fulfilled by Flight Network&reg;</div>
+                <div class="field issue-date" style="box-sizing: border-box;"><span class="label" style="box-sizing: border-box;font-weight: bold;">Issue Date: </span><span style="box-sizing: border-box;">[[ISSUE_DATE]]</span></div>
+            </div>
+
+            <div class="center do-not-reply" style="box-sizing: border-box;text-align: center;clear: both;color: #575757;padding: 20px 0 5px;font-size: 12px;"> ********** Please do not reply to this e-mail **********</div>
+
+            <div class="hgb-flight-ticket" style="box-sizing: border-box;color: #003d4c;background-color: #ffffff;font-size: 12px;">
+                <div class="hgb-flight-ticket-content" style="box-sizing: border-box;background-color: #f7f7f7;padding: 20px 10px;">
+                    <div class="hgb-flight-ticket-header hgb-flight-ticket-section" style="box-sizing: border-box;padding: 22px 18px;background-color: #ffffff;border-top: 1px solid #d7d7d7;border-left: 1px solid #d7d7d7;border-right: 1px solid #d7d7d7;border-radius: 10px;">
+                        <div class="hgb-flight-ticket-headline" style="box-sizing: border-box;font-size: 16px;">
+                            <span class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;font-size: 16px;">AIRLINE LOCATOR</span>
+                            <span style="box-sizing: border-box;">(use for online check-in)</span>
+                            <span style="box-sizing: border-box;">
+                                <span class="underline" style="box-sizing: border-box;text-decoration: underline;">[[CARRIER]]</span>
+                                <span style="box-sizing: border-box;"> | </span>
+                                <span class="underline" style="box-sizing: border-box;text-decoration: underline;">[[LOCATOR]]</span>
+                        </span></div>
+                    </div>
+                    
+                    <div class="hgb-flight-ticket-body hgb-flight-ticket-section" style="box-sizing: border-box;padding: 22px 18px;background-color: #ffffff;border-top: 3px solid #d7d7d7;border-bottom: 3px solid #d7d7d7;border-style: dashed;border-left: 1px solid #d7d7d7;border-right: 1px solid #d7d7d7;">
+                        <!-- ngRepeat: leg in flight.legs | filter : {type:'Leg'} -->
+                        <div class="hgb-flight-ticket-body-leg ng-scope first last" ng-repeat="leg in flight.legs | filter : {type:'Leg'}" ng-class="{'first':$first, 'last':$last}" style="box-sizing: border-box;padding: 5px;">
+                            <div class="hgb-flight-ticket-body-leg-section hgb-flight-ticket-headline" style="box-sizing: border-box;font-size: 16px;padding: 8px 0;">
+                                <span class="hgb-flight-ticket-label ng-binding" style="box-sizing: border-box;font-weight: bold;font-size: 16px;">Flight #[[SEGMENT_NUMBER]]:</span>
+                                <span class="ng-binding" style="box-sizing: border-box;">[[CARRIER_AND_FLIGHTNUMBER]]</span>
+                                <span class="ng-binding" style="box-sizing: border-box;">[[ORIGIN_AND_DESTINATION]]</span>
+                            </div>
+                            <div class="hgb-flight-ticket-body-leg-section" style="box-sizing: border-box;padding: 8px 0;"><span class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;font-size: 16px;">Status: </span>[[STATUS]]
+                            </div>
+                            <div class="hgb-flight-ticket-body-leg-section" style="box-sizing: border-box;padding: 8px 0;">
+                                <table style="box-sizing: border-box;">
+                                    <thead style="box-sizing: border-box;">
+                                    <tr style="box-sizing: border-box;">
+                                        <th style="box-sizing: border-box;padding-right: 10px;">Departure</th>
+                                        <th style="box-sizing: border-box;padding-right: 10px;">From</th>
+                                        <th style="box-sizing: border-box;padding-right: 10px;">Terminal</th>
+                                        <th style="box-sizing: border-box;padding-right: 10px;">Arrival</th>
+                                        <th style="box-sizing: border-box;padding-right: 10px;">To</th>
+                                        <th style="box-sizing: border-box;padding-right: 10px;">Terminal</th>
+                                        <th style="box-sizing: border-box;padding-right: 10px;">Baggage</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody style="box-sizing: border-box;">
+                                    <tr style="box-sizing: border-box;">
+                                        <td class="ng-binding" style="box-sizing: border-box;padding-right: 10px;">
+                                            <div style="box-sizing: border-box;">[[DEPARTURE_DATE]]</div>
+                                            <div style="box-sizing: border-box;">[[DEPARTURE_TIME]]</div>
+                                        </td>
+                                        <td class="ng-binding" style="box-sizing: border-box;padding-right: 10px;">
+                                            <div style="box-sizing: border-box;">[[ORIGIN_CITY]]</div>
+                                            <div style="box-sizing: border-box;">([[ORIGIN_CODE]])</div>
+                                        </td>
+                                        <td style="box-sizing: border-box;padding-right: 10px;">[[DEPARTURE_TERMINAL]]</td>
+                                        <td class="ng-binding" style="box-sizing: border-box;padding-right: 10px;">
+                                            <div style="box-sizing: border-box;">[[ARRIVAL_DATE]]</div>
+                                            <div style="box-sizing: border-box;">[[ARRIVAL_TIME]]</div>
+                                        </td>
+                                        <td class="ng-binding" style="box-sizing: border-box;padding-right: 10px;">
+                                            <div style="box-sizing: border-box;">[[DESTINATION_CITY]]</div>
+                                            <div style="box-sizing: border-box;">([[DESTINATION_CODE]])</div>
+                                        </td>
+                                        <td style="box-sizing: border-box;padding-right: 10px;">[[ARRIVAL_TERMINAL]]</td>
+                                        <td style="box-sizing: border-box;padding-right: 10px;">[[BAGGAGE]]</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div><!-- end ngRepeat: leg in flight.legs | filter : {type:'Leg'} -->
+                    </div>
+                    <div class="hgb-flight-ticket-circle left" style="box-sizing: border-box;border: 1px solid #d7d7d7;border-radius: 50%;background-color: #f7f7f7;width: 20px;height: 24px;float: left;margin-top: -12px;margin-left: -10px;"></div>
+                    <div class="hgb-flight-ticket-circle-cover left" style="box-sizing: border-box;border-radius: 0;border: none;background-color: #f7f7f7;width: 20px;height: 24px;float: left;margin-top: -12px;margin-left: -30px;"></div>
+                    <div class="hgb-flight-ticket-circle right" style="box-sizing: border-box;border: 1px solid #d7d7d7;border-radius: 50%;background-color: #f7f7f7;width: 20px;height: 24px;float: right;margin-top: -12px;margin-right: -10px;"></div>
+                    <div class="hgb-flight-ticket-circle-cover right" style="box-sizing: border-box;border-radius: 0;border: none;background-color: #f7f7f7;width: 20px;height: 24px;float: right;margin-top: -12px;margin-right: -30px;"></div>
+                    <div class="hgb-flight-ticket-footer hgb-flight-ticket-section" style="box-sizing: border-box;padding: 22px 18px;background-color: #ffffff;border-bottom: 1px solid #d7d7d7;border-left: 1px solid #d7d7d7;border-right: 1px solid #d7d7d7;border-radius: 10px;">
+                        <table style="box-sizing: border-box;">
+                            <tbody style="box-sizing: border-box;">
+                            <tr style="box-sizing: border-box;">
+                                <td style="width: 75%;box-sizing: border-box;">
+                                    <table class="hgb-flight-ticket-contact-details" style="box-sizing: border-box;font-size: 12px;color: #979797;">
+                                        <tbody style="box-sizing: border-box;">
+                                        <tr style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box;"><span class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;">Flight Network Call Center: </span>1-877-496-4815</td>
+                                        </tr>
+                                        <tr style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box;"><span class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;">International: </span>1-905-829-8699
+                                            </td>
+                                        </tr>
+                                        <tr style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box;"><span class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;">E-mail: </span><a href="mailto:support@hellogbye.com" style="box-sizing: border-box;color: #979797;">support@hellogbye.com</a></td>
+                                        </tr>
+                                        <tr style="box-sizing: border-box;"><td style="box-sizing: border-box;"><a href="#/[[INSERT_LINK_HERE]]" style="box-sizing: border-box;color: #979797;">Click here to cancel / change</a></td></tr>
+                                        </tbody>
+                                    </table>
+
+                                </td>
+                                <td style="box-sizing: border-box;">
+                                    <div class="booking-message-container" style="box-sizing: border-box;position: relative;">
+                                        <span class="hgb-flight-ticket-booking-message" style="box-sizing: border-box;font-size: 10px;font-weight: bold;letter-spacing: -1px;font-family: 'Din Medium Condensed', Arial, Helvetica, sans-serif;">Thank you for choosing </span>
+                                        <div class="logo-container" style="box-sizing: border-box;display: inline-block;padding-top: 6px;margin-top: -15px;"><img class="hgb-flight-ticket-logo" src="hellogbye_logo_hor_rgb_red.png" style="box-sizing: border-box;margin-bottom: -5px;"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="asterisks" style="box-sizing: border-box;color: #003d4c;font-size: 12px;">
+                <table style="box-sizing: border-box;">
+                    <tr style="box-sizing: border-box;">
+                        <td class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;">*</td>
+                        <td class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;">Not Valid Before:</td>
+                        <td style="box-sizing: border-box;">[[NOT_VALID_BEFORE]]</td>
+                    </tr>
+                    <tr style="box-sizing: border-box;">
+                        <td style="box-sizing: border-box;">**</td>
+                        <td class="hgb-flight-ticket-label" style="box-sizing: border-box;font-weight: bold;">Not Valid After:</td>
+                        <td style="box-sizing: border-box;">[[NOT_VALID_AFTER]]</td>
+                    </tr>
+                </table>
+            </div>
+            <hr style="box-sizing: border-box;opacity: 0.3;">
+            <div class="hgb-fine-print" style="box-sizing: border-box;padding: 12px;font-size: 9px;color: #979797;">
+                <div style="box-sizing: border-box;">
+                    <h3 style="box-sizing: border-box;">Change &amp; Cancellation Policy</h3>
+                    <p style="box-sizing: border-box;">[[CHANGE_AND_CANCELLATION]]</p>
+                </div>
+                <div style="box-sizing: border-box;">
+                    <h3 style="box-sizing: border-box;">Terms &amp; Conditions</h3>
+                    <p style="box-sizing: border-box;">[[TERMS_AND_CONDITIONS]]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

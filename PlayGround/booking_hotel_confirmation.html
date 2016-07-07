@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html style="background-color: #F7F7F7;">
+<head>
+</head>
+<body style="margin: 0;font-family: sans-serif;font-size: 1.1em;line-height: inherit;">
+    <div class="full-container" style="background-color: #F7F7F7;text-align: left;box-sizing: border-box;padding-top: 10px;">
+        <div class="top-container" style="margin: 0 auto;max-width: 700px;box-sizing: border-box;">
+            <div class="header-image-container" style="box-sizing: border-box;max-width: 700px;">
+                <img src="https://s3.amazonaws.com/hellogbye-cdn/assets/icons/booking_header_hotel.jpg" style="box-sizing: border-box;">
+            </div>
+            <div class="main-content" style="box-sizing: border-box;padding: 10px;font-size: 14px;color: #003d4c;">
+
+                <div class="ticket-and-date" style="box-sizing: border-box;font-size: 12px;color: #0f3d4b;">
+                    <div class="fulfilled-by" style="box-sizing: border-box;font-size: 1.5em;font-weight: bold;">Fulfilled by Flight Network&reg;</div>
+                    <div class="field issue-date" style="box-sizing: border-box;"><span class="label" style="box-sizing: border-box;font-weight: bold;">Issue Date: </span><span style="box-sizing: border-box;">[[BOOKED_DATE]]</span></div>
+                    <div class="field confirmation-number" style="box-sizing: border-box;background-color: rgba(14, 61, 75, 0.1);padding: 5px;float: right;">
+                        <span class="field-label" style="box-sizing: border-box;font-weight: bold;">Hotel confirmation number: </span><span style="box-sizing: border-box;">[[CONFIRMATION_NUMBER]]</span>
+                    </div>
+                </div>
+
+                <div class="center do-not-reply" style="box-sizing: border-box;text-align: center;clear: both;color: #575757;padding: 20px 0 5px;font-size: 12px;"> ********** Please do not reply to this e-mail **********</div>
+
+                <div class="confirmation-summary" style="box-sizing: border-box;">
+                    <table style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                            <td style="box-sizing: border-box;padding-right: 20px;"><img src="https://s3.amazonaws.com/hellogbye-cdn/assets/icons/checkmark.png" alt="Success" style="box-sizing: border-box;"></td>
+                            <td style="box-sizing: border-box;">
+                                <h2 style="box-sizing: border-box;">Dear [[USERNAME]],<br style="box-sizing: border-box;">[[HOTELNAME]]<br style="box-sizing: border-box;">Has been arranged using HelloGbye.</h2>
+
+                                <p style="box-sizing: border-box;font-size: 11px;">Hotel loyalty number: [[LOYALTYNUMBER]]</p>
+
+                                <p style="box-sizing: border-box;font-size: 11px;">This is a [[REFUNDABLILITY]] deal.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="hotel-info" style="box-sizing: border-box;">
+                    <div class="content-section-container-header" style="box-sizing: border-box;">
+                        <div class="modify-link" style="box-sizing: border-box;text-align: right;display: inline-block;float: right;margin-top: 20px;margin-right: 10px;">
+                            <a href="[[INSERTLINK]]" style="box-sizing: border-box;color: #0f3d4b;font-size: 11px;">I want to change or cancel my hotel</a>
+                        </div>
+                        <table style="box-sizing: border-box;margin-left: 24px;margin-right: 24px;">
+                            <thead style="box-sizing: border-box;">
+                            <th style="box-sizing: border-box;padding-right: 20px;"><img src="https://s3.amazonaws.com/hellogbye-cdn/assets/icons/hotel-icon.png" alt="Hotel Icon" style="box-sizing: border-box;max-height: 40px;"></th>
+                            <th style="box-sizing: border-box;">
+                                <h3 style="box-sizing: border-box;">HOTEL DETAILS</h3>
+                            </th>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="content-section-container" style="box-sizing: border-box;border-radius: 10px;background-color: #ffffff;margin-bottom: 30px;clear: both;">
+                        <div class="content-section" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;">
+                            <table style="box-sizing: border-box;width: 100%;">
+                                <thead style="box-sizing: border-box;">
+                                <th style="box-sizing: border-box;">Address</th>
+                                <th colspan="3" style="box-sizing: border-box;">Contact</th>
+                                </thead>
+                                <tr style="box-sizing: border-box;">
+                                    <td style="box-sizing: border-box;vertical-align: top;">[[HOTEL_ADDRESS]]</td>
+                                    <td colspan="3" style="box-sizing: border-box;vertical-align: top;">[[HOTEL_PHONENUMBER]]</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="content-section" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;">
+                            <table style="box-sizing: border-box;width: 100%;">
+                                <thead style="box-sizing: border-box;">
+                                <th style="box-sizing: border-box;">Room</th>
+                                <th style="box-sizing: border-box;">Room Occupants</th>
+                                <th style="box-sizing: border-box;">Check-In</th>
+                                <th style="box-sizing: border-box;">Check-Out</th>
+                                </thead>
+                                <tr style="box-sizing: border-box;">
+                                    <td style="box-sizing: border-box;vertical-align: top;">[[ROOM_TYPE]]</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;">[[ROOM_OCCUPANTS]]</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;">[[ROOM_CHECKIN]]</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;">[[ROOM_CHECKOUT]]</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="content-section" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;">
+                            <div class="section-header" style="box-sizing: border-box;display: inline-block;"><h3 style="box-sizing: border-box;">Hotel Photo</h3></div>
+                            <div class="modify-link" style="box-sizing: border-box;text-align: right;display: inline-block;float: right;margin-top: 20px;margin-right: 10px;">
+                                <a href="[[INSERTLINK]]" style="box-sizing: border-box;color: #0f3d4b;font-size: 11px;">Click for detailed hotel information</a>
+                            </div>
+                            <table class="hotel-photos" style="box-sizing: border-box;width: 100%;">
+                                <tr style="box-sizing: border-box;height: 154px;">
+                                    <td style="box-sizing: border-box;vertical-align: top;"><img src="https://az712897.vo.msecnd.net/images/full/d79b01c9-5570-4985-9a7a-7429ab94314b.jpeg" alt="SAMPLE IMG - DELETE ME" style="box-sizing: border-box;position: absolute;clip: rect(0px,154px,154px,0px);"></td>
+                                    <td style="box-sizing: border-box;vertical-align: top;"><img src="https://az712897.vo.msecnd.net/images/full/b8cc570d-e565-4d09-8f1a-6134e51673c7.jpeg" alt="SAMPLE IMG - DELETE ME" style="box-sizing: border-box;position: absolute;clip: rect(0px,154px,154px,0px);"></td>
+                                    <td style="box-sizing: border-box;vertical-align: top;"><img src="https://az712897.vo.msecnd.net/images/full/002d5a1e-899e-48b7-b7ef-31f364634c94.jpeg" alt="SAMPLE IMG - DELETE ME" style="box-sizing: border-box;position: absolute;clip: rect(0px,154px,154px,0px);"></td>
+                                    <td style="box-sizing: border-box;vertical-align: top;"><img src="https://az712897.vo.msecnd.net/images/full/2f0f647c-f42c-47da-97a3-87976c6f96a1.jpeg" alt="SAMPLE IMG - DELETE ME" style="box-sizing: border-box;position: absolute;clip: rect(0px,154px,154px,0px);"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="content-section last" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;border: none;">
+                            <div class="section-header" style="box-sizing: border-box;display: inline-block;"><h3 style="box-sizing: border-box;">[[HOTEL_ADDRESS]]</h3></div>
+                            <div class="modify-link" style="box-sizing: border-box;text-align: right;display: inline-block;float: right;margin-top: 20px;margin-right: 10px;">
+                                <a href="[[INSERTLINK]]" style="box-sizing: border-box;color: #0f3d4b;font-size: 11px;">Click for map &amp; directions</a>
+                            </div>
+                            <div class="hotel-location-map" style="box-sizing: border-box;height: 150px;">
+                                <a href="[[INSERTLINK]" style="box-sizing: border-box;">
+                                    <img alt="Google Map Image" src="http://maps.googleapis.com/maps/api/staticmap?size=630x150&zoom=10&center=40.714728,-73.998672" style="box-sizing: border-box;position: absolute;clip: rect(0px, 630px, 150px, 0px);">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-info" style="box-sizing: border-box;">
+                    <div class="content-section-container-header" style="box-sizing: border-box;">
+                        <table style="box-sizing: border-box;margin-left: 24px;margin-right: 24px;">
+                            <thead style="box-sizing: border-box;">
+                            <th style="box-sizing: border-box;padding-right: 20px;"><img src="https://s3.amazonaws.com/hellogbye-cdn/assets/icons/price-payment-icon.png" alt="Payment Icon" style="box-sizing: border-box;max-height: 40px;"></th>
+                            <th style="box-sizing: border-box;">
+                                <h3 style="box-sizing: border-box;">PRICING &amp; PAYMENT</h3>
+                            </th>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="content-section-container" style="box-sizing: border-box;border-radius: 10px;background-color: #ffffff;margin-bottom: 30px;clear: both;">
+                        <div class="content-section" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;">
+                            <table style="box-sizing: border-box;width: 100%;">
+                                <thead style="box-sizing: border-box;">
+                                <th style="box-sizing: border-box;">Base rate</th>
+                                <th style="box-sizing: border-box;">Taxes</th>
+                                <th style="box-sizing: border-box;">Base + Tax</th>
+                                <th style="box-sizing: border-box;">Total Billing</th>
+                                </thead>
+                                <tr style="box-sizing: border-box;">
+                                    <td style="box-sizing: border-box;vertical-align: top;">
+                                        <div style="box-sizing: border-box;">[[BASEFARE_NIGHTLY]]</div>
+                                        <div style="box-sizing: border-box;">per night</div>
+                                    </td>
+                                    <td style="box-sizing: border-box;vertical-align: top;">
+                                        <div style="box-sizing: border-box;">[[TAX_NIGHTLY]]</div>
+                                        <div style="box-sizing: border-box;">per night</div>
+                                    </td>
+                                    <td style="box-sizing: border-box;vertical-align: top;">
+                                        <div style="box-sizing: border-box;">[[TOTAL_NIGHTLY]]</div>
+                                        <div style="box-sizing: border-box;">per night</div>
+                                    </td>
+                                    <td style="box-sizing: border-box;vertical-align: top;">
+                                        <div style="box-sizing: border-box;">[[TOTALCOST]]</div>
+                                        <div style="box-sizing: border-box;">[[NUMBER_NIGHTS]] night stay</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="content-section emphasis payment-fare-section" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;padding-top: 13px;padding-bottom: 13px;background-color: #0f3d4b;color: #ffffff;border: none;">
+                            <table class="payment-fare-table" style="box-sizing: border-box;width: 100%;">
+                                <tr style="box-sizing: border-box;">
+                                    <td style="box-sizing: border-box;vertical-align: middle;">
+                                        <div style="box-sizing: border-box;">Payment card:<span style="box-sizing: border-box;">[[CREDITCARDTYPE]]</span></div>
+                                    </td>
+                                    <td class="payment-fare-total-cell" style="box-sizing: border-box;text-align: right;font-size: 22px;vertical-align: middle;">
+                                        <div style="box-sizing: border-box;">Amount: <span class="payment-fare-total" style="box-sizing: border-box;font-weight: bold;">[[TOTALCOST]]</span></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="content-section last payment-detail-section" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;font-size: 10px;border: none;">
+                            <p style="box-sizing: border-box;">
+                                ** All charges are charged by the supplier directly, any Surcharges are charged by our
+                                fulfillment agency partner, FlightNetwork&reg;.
+                            </p>
+
+                            <p style="box-sizing: border-box;">
+                                *** If your credit card payment is declined or if you have not provided us accurate credit
+                                card billing information your reservation is liable to be cancelled without notice. Proof of
+                                documents for bookings using a third party credit card, may be required, back and front of
+                                card and copy of drivers' license.
+                            </p>
+
+                            <p style="box-sizing: border-box;">
+                                The amount displayed for an 'Authorized Transaction' may be different from what you actually
+                                paid, as some merchants require a temporary hold be placed on additional funds. This is a
+                                common practice for many other merchants such as: gas stations, restaurants and hotels. The
+                                correct amount will display when the transaction is shown as a 'Posted Transaction'. A delay
+                                may occur between the time a transaction is settled and removed from Authorized
+                                Transactions, and when it appears in Posted Transactions. Some transactions may appear as
+                                both an Authorized and a Posted Transaction until settled. When applying a debit/visa card
+                                for payment, and in the event of a cancellation, your funds may be held up to 60days by your
+                                financial institution. We strongly recommend an alternative form of payment to avoid any
+                                inconveniences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info" style="box-sizing: border-box;">
+                    <div class="content-section-container-header" style="box-sizing: border-box;">
+                        <table style="box-sizing: border-box;margin-left: 24px;margin-right: 24px;">
+                            <thead style="box-sizing: border-box;">
+                            <th style="box-sizing: border-box;padding-right: 20px;"><img src="https://s3.amazonaws.com/hellogbye-cdn/assets/icons/email-icon.png" alt="Billing Icon" style="box-sizing: border-box;max-height: 40px;"></th>
+                            <th style="box-sizing: border-box;">
+                                <h3 style="box-sizing: border-box;">CONTACT / BILLING DETAILS</h3>
+                            </th>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="content-section-container" style="box-sizing: border-box;border-radius: 10px;background-color: #ffffff;margin-bottom: 30px;clear: both;">
+                        <div class="content-section last" style="box-sizing: border-box;padding: 22px;border-bottom: 1px solid #e5e5e5;border: none;">
+                            <table style="box-sizing: border-box;width: auto;">
+                                <tr style="box-sizing: border-box;">
+                                    <td class="field-label" style="box-sizing: border-box;font-weight: bold;vertical-align: top;padding: 2px 0;">Contact Name:</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;padding: 2px 0;">[[FULLNAME]]</td>
+                                </tr>
+                                <tr style="box-sizing: border-box;">
+                                    <td class="field-label" style="box-sizing: border-box;font-weight: bold;vertical-align: top;padding: 2px 0;">Email:</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;padding: 2px 0;"><a href="mailto:[[EMAIL]]" style="box-sizing: border-box;">[[EMAIL]]</a></td>
+                                </tr>
+                                <tr style="box-sizing: border-box;">
+                                    <td class="field-label" style="box-sizing: border-box;font-weight: bold;vertical-align: top;padding: 2px 0;">Telephone:</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;padding: 2px 0;">[[PHONENUMBER]]</td>
+                                </tr>
+                                <tr style="box-sizing: border-box;">
+                                    <td class="field-label" style="box-sizing: border-box;font-weight: bold;vertical-align: top;padding: 2px 0;">Billing Address:</td>
+                                    <td style="box-sizing: border-box;vertical-align: top;padding: 2px 0;">[[BILLINGADDRESS]]</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <hr style="box-sizing: border-box;opacity: 0.3;margin-left: 10px;margin-right: 10px;">
+                <div class="hgb-fine-print" style="box-sizing: border-box;padding: 10px;font-size: 9px;color: #979797;">
+                    <div style="box-sizing: border-box;">
+                        <h3 style="box-sizing: border-box;">Change &amp; Cancellation Policy</h3>
+
+                        <p style="box-sizing: border-box;">[[TEXT HERE]]</p>
+                    </div>
+                    <div style="box-sizing: border-box;">
+                        <h3 style="box-sizing: border-box;">Change and Cancellation:</h3>
+
+                        <p style="box-sizing: border-box;">
+                            If you need to change or cancel your reservation please call us immediately at 1 877 496 4815.
+                            Our Flight Reservations Department is open 24/7.
+                        </p>
+
+                        <h3 style="box-sizing: border-box;">Changes:</h3>
+
+                        <p style="box-sizing: border-box;">
+                            The minimum change fee for your flight is [$Amount] per ticket, plus any difference in fare and
+                            all applicable taxes.
+                        </p>
+
+                        <h3 style="box-sizing: border-box;">Cancellations:</h3>
+
+                        <p style="box-sizing: border-box;">
+                            For all other cancellations, a minimum fee of CAD $ 50, per passenger, is charged at the time of
+                            cancellation and an airline fee is applied at the time of re-booking. If permitted by the
+                            airline, the remaining funds may be available within one year of the cancellation. However,
+                            please note that the travel credit is available only for the passenger listed on the original
+                            ticket.
+                        </p>
+
+                        <h3 style="box-sizing: border-box;">No Show:</h3>
+
+                        <p style="box-sizing: border-box;">
+                            Customers who do not appear or 'no show' for their flight will forfeit the entire fare paid. To
+                            avoid this, please contact us at least 3 hours before the original departure time of your flight
+                            to check the exact fare rules of your ticket. If you arrive at the airport late or are denied
+                            boarding you will forfeit the entire fare paid.
+                        </p>
+
+                        <h3 style="box-sizing: border-box;">Important Information Please Read</h3>
+
+                        <p style="box-sizing: border-box;">
+                            Thank you for choosing Hellogbye (fulfilled through FlightNetwork&reg;).
+                            Please double check your booking information below and in the booking receipt attached to this
+                            email to verify the flight details and the spelling of your name matches the legal name as it
+                            appears on the valid passport or government issued photo id, as most tickets NON- REFUNDABLE and
+                            NON-CHANGEABLE. If the entire information is accurate, you do not need to contact us.
+                        </p>
+
+                        <p style="box-sizing: border-box;">
+                            If there is a problem, please call our Flight Reservations Department at 1-877-496-4815. We are
+                            open 24/7. Baggage Allowance and Restrictions - To view detailed information on [Name of
+                            Carrier] Baggage Allowance review your electronic ticket.
+                        </p>
+
+                        <h3 style="box-sizing: border-box;">Seat Selection:</h3>
+
+                        <p style="box-sizing: border-box;">
+                            Please visit the [Name of Carrier] Web site to complete seat selection.
+                        </p>
+
+                        <h3 style="box-sizing: border-box;">Terms and Conditions</h3>
+
+                        <p style="box-sizing: border-box;">
+                            These terms and conditions need to point FlightNetwork&reg;'s Terms and Conditions which are
+                            stated
+                            here http://www.flightnetwork.com/terms and which covers important topics such as Flight
+                            Confirmation, Passports/Visas, Cancellation and Changes and Lost Tickets.
+                        </p>
+
+                        <p style="box-sizing: border-box;">
+                            I understand that even after pressing the Purchase Button that a reservation is not confirmed
+                            until I receive a confirmation email and until I have received my electronic ticket.
+                        </p>
+
+                        <p style="box-sizing: border-box;">
+                            I understand that my credit card will be charged a total of [[$Amount]] which includes the fare,
+                            taxes and all surcharges, and my statement may show one or more charges that equal the total
+                            charge listed here. Your statement will show a charge from [[AIRLINE_CARRIER]] [[$Amount]].
+                        </p>
+                    </div>
+                    <div style="box-sizing: border-box;"><span class="field-label" style="box-sizing: border-box;font-weight: bold;">Tel: </span><span style="box-sizing: border-box;">1-877-496-4815</span></div>
+                    <div style="box-sizing: border-box;"><span class="field-label" style="box-sizing: border-box;font-weight: bold;">Flight Network Call Center: </span><span style="box-sizing: border-box;">1-877-496-4815</span></div>
+                    <div style="box-sizing: border-box;">
+                        <span class="field-label" style="box-sizing: border-box;font-weight: bold;">E-mail: </span><span style="box-sizing: border-box;"><a href="mailto:support@hellogbye.com" style="box-sizing: border-box;">support@hellogbye.com</a></span>
+                    </div>
+                </div>
+
+                <div class="booking-message-container" style="box-sizing: border-box;position: relative;margin: 20px 10px 30px 10px;">
+                    <span class="hgb-flight-ticket-booking-message" style="box-sizing: border-box;font-size: 13px;font-weight: bold;letter-spacing: -1px;font-family: 'Din Medium Condensed', Arial, Helvetica, sans-serif;">Thank you for choosing </span>
+
+                    <div class="logo-container" style="box-sizing: border-box;padding-top: 6px;margin-top: -15px;"><img class="hgb-flight-ticket-logo" src="https://s3.amazonaws.com/hellogbye-cdn/assets/icons/hellogbye_logo_red_185x75.png" style="box-sizing: border-box;"></div>
+                </div>
+                <hr style="box-sizing: border-box;opacity: 0.3;margin-left: 10px;margin-right: 10px;">
+                <div class="hgb-fine-print" style="box-sizing: border-box;padding: 10px;font-size: 9px;color: #979797;">
+                    <p style="box-sizing: border-box;">
+                        <span class="field-label" style="box-sizing: border-box;font-weight: bold;">CONFIDENTIALITY NOTICE:</span> This email message, including any
+                        attachments may contain confidential and privileged information intended only for the person(s)
+                        named above. If you are not the intended recipient or have received this message in error, please
+                        notify the sender immediately by reply e-mail and permanently delete the original transmission from
+                        us,including any attachments, without disseminating, distributing or making a copy. Any unauthorized
+                        review; use or disclosure is prohibited. Thank you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
