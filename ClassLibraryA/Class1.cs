@@ -9,6 +9,7 @@ namespace ClassLibraryA
     public class Class1
     {
         //commit 1 on Master
+        //commit 2 on level1_branch
         //commit 5 on master
     }
 }
