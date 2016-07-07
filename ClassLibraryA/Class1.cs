@@ -8,5 +8,6 @@ namespace ClassLibraryA
 {
     public class Class1
     {
+        //commit 1 on Master
     }
 }
