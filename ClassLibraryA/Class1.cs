@@ -9,5 +9,6 @@ namespace ClassLibraryA
     public class Class1
     {
         //commit 1 on Master
+        //commit 5 on master
     }
 }
