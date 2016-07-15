@@ -1,20 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Globalization;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿using EO.Pdf;
+using NodaTime;
 using PlayGround.Model;
+using SharedComponent.Configurations;
+using System;
+using System.Collections.Generic;
 using System.Configuration;
+using System.Data;
 using System.Data.OleDb;
 using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
-using SharedComponent.Configurations;
-using NodaTime;
-using EO.Pdf;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace PlayGround
 {
@@ -22,6 +23,7 @@ namespace PlayGround
     {
         public static void Main(string[] args)
         {
+            #region Past Tests
             //SumTest();
             //DataSetTest();
             //GetRangeTest();
@@ -51,10 +53,38 @@ namespace PlayGround
             //PdfTestXTimes(5);
             //CultureTest();
             //NestedIfTest();
-            NestedForTest();
+            //NestedForTest();
+            #endregion
+
+            TaskDelayTest();
             Console.ReadLine();
         }
 
+        private static void TaskDelayTest()
+        {
+            var source = new CancellationTokenSource();
+            var t = Task.Run(async delegate
+            {
+                await Task.Delay(TimeSpan.FromSeconds(1.5), source.Token);
+                return 42;
+            });
+            source.Cancel();
+            try
+            {
+                t.Wait();
+            }
+            catch (AggregateException ae)
+            {
+                foreach (var e in ae.InnerExceptions)
+                    Console.WriteLine("{0}: {1}", e.GetType().Name, e.Message);
+            }
+            Console.Write("Task t Status: {0}", t.Status);
+            if (t.Status == TaskStatus.RanToCompletion)
+                Console.Write(", Result: {0}", t.Result);
+            source.Dispose();
+        }
+
+        #region Test Methods
         private static void NestedForTest()
         {
             for (int i = 0; i < 3; i++)
@@ -424,7 +454,6 @@ namespace PlayGround
 
         private static void PhoneNumberValidationTest()
         {
-            var stringArray = new[] { "6478643246", "(647)8623246", "(647)862-3246", "(647)-8623246", "(647)-862-3246", "1(647)-862-3246", "+1(647)-862-3246", "+16478643246" };
             var invalidArray = new[] { "0120120000", "(012)0120000", "(012)012-0000", "(012)-0120000", "(012)-012-0000", "1(012)-012-0000", "+1(012)-012-0000", "+10120120000" };
             foreach (var s in stringArray)
             {
@@ -513,7 +542,6 @@ namespace PlayGround
         {
             var oneWayRequest = new SearchOneWayRequest
             {
-                client_ref = "amginetech",
                 Adult = "1",
                 Child = "0",
                 Infant = "0",
@@ -635,5 +663,6 @@ namespace PlayGround
                 if (dict.Values.All(ls => !ls.Any())) break;
             }
         }
+        #endregion
     }
 }
