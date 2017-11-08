@@ -1,482 +1,332 @@
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Adria Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aegean Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='A3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aer Lingus', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aero Charter', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aero Contractors', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aero Mongolia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='M0'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aeroflot', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aerogal Aerolina', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='2K'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aerogaviota', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aerolíneas Argentinas', [AlternateDescription]='Argentine Airways'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aerolíneas Sosa', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='P4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aeromar', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aeromar', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aeroméxico', [AlternateDescription]='Aeromexico'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aeroméxico', [AlternateDescription]='Aeromexico Connect'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5D'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aeropostal', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='African Express Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Afriqiyah Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8U'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aigle Azur', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Algérie', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Arabia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='G9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Astana', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Austral', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Baltic', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Berlin', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Botswana', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Burkina', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='2J'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Calédonie', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Canada', [AlternateDescription]='Air Canada'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Canada', [AlternateDescription]='Air Canada Jazz'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Canada', [AlternateDescription]='Air Canada Rouge'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Caraibes', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Chathams', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air China', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Choice One', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3E'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Corsica', [AlternateDescription]='CCM Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Creebec', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Do', [AlternateDescription]='Hokkaido International'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Dolomiti ', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Europa', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air France', [AlternateDescription]='Air France'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air France', [AlternateDescription]='HOP! Air Regional LCC'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Greenland', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Guyane', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3S'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Iceland', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air India', [AlternateDescription]='Air India'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air India', [AlternateDescription]='Air India Express'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air India', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air India', [AlternateDescription]='Air India Regional (Alliance Air)'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9I'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Inuit', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3H'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Italy', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='I9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Japan', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Koryo', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Kyrgystan', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Labrador', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Libya', [AlternateDescription]='Tibesti AirLibya'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7Q'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Link', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Macau', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Madagascar', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Mali', [AlternateDescription]='Compagnie Mali'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='I5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Malta', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Mandalay', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6T'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Mauritius', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Moldova', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9U'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Namibia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air New Zealand', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Niugini', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air North', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4N'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Nostrum', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Rarotonga', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Saint-Pierre', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Seychelles', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Sinai', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4D'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Sunshine', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Tahiti', [AlternateDescription]='Air Tahiti'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Tahiti', [AlternateDescription]='Air Tahiti Nui'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Tanzania', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Tindi', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8T'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Transat', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Vanuatu', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Wisconsin', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Air Zimbabwe', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='AirAsia', [AlternateDescription]='AirAsia'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='AirAsia', [AlternateDescription]='AirAsia Zest - Asian Spirit'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6K'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='AirAsia', [AlternateDescription]='Thai AirAsia'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='AirAsia', [AlternateDescription]='AirAsia X'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='D7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aircalin', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Airkenya Express', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='P2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Airnorth', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aklak Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6L'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Alaska Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Alaska Central Express', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Alexandria Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Alidaunia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='D4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Alitalia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Allegiant Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='G4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Alliance Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='AMC Airlines Egypt', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='American Airlines', [AlternateDescription]='American Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='American Airlines', [AlternateDescription]='American Eagle (Envoy Air)'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='ANA', [AlternateDescription]='All Nippon Airways'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Andes Líneas Aéreas', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Angkor Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='G6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Antrak Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='O4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ariana', [AlternateDescription]='Ariana Afghan Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Arik Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='W3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Arkia', [AlternateDescription]='Arkia Israeli'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aserca Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='R7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Asiana Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='ASL Airlines France', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5O'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Atlantis European Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='AtlasGlobal', [AlternateDescription]='Atlas Jet International'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Augsburg Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aurigny Air Services', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Aurora', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Austral', [AlternateDescription]='Austral Lineas'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Austrian Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Avianca', [AlternateDescription]='Avianca Honduras'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Avianca', [AlternateDescription]='Avianca'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Avianca', [AlternateDescription]='Avianca Costa Rica'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Avies', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='U3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Avior Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9V'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Azerbaijan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='J2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Baboo', [AlternateDescription]='Flybaboo'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='F7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Bahamasair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Bangkok Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Barents AirLink', [AlternateDescription]='Nordkalottflyg'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8N'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Bearskin Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Belair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4T'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Belavia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='B2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Bering Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8E'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Berjaya Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='J8'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Biman Bangladesh', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Binter Canarias', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Bismillah Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5Z'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Blue Panorama Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Blue1', [AlternateDescription]='Blue1 Oy'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Borajet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='British Airways', [AlternateDescription]='BA Connect'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='British Airways', [AlternateDescription]='British Airways'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='British Airways', [AlternateDescription]='BA City Flyer'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Brussels Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Bulgaria Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Buraq Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Calm Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Canadian North', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5T'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cape Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9K'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Capital Airlines', [AlternateDescription]='Deer Air'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Caribbean Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Carpatair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='V3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cathay Pacific', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cayman Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cebgo', [AlternateDescription]='South East Asian Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cebu Pacific', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5J'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ceiba Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='C2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Central Mountain Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9M'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Challenge Aero', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5U'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='China Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='China Eastern Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='China Express Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='G5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='China Southern Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Chongqing Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='City Jet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Coastal Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cobham Aviation Services Australia', [AlternateDescription]='National Jet'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Comores Aviation', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Compass Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Condor', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Copa Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Copa Airlines Colombia', [AlternateDescription]='AeroRepublica'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='P5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Corsair International', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Croatia Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='CSA Czech Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Cubana Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Daallo Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='D3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Darwin Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='0D'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='DAT', [AlternateDescription]='Danish Air'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Delta Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Denim Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3D'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Direktflyg', [AlternateDescription]='Svenska Direktfl'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Dniproavia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='Z6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='DOT LT', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='R6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Dragonair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Drukair — Royal Bhutan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Eagle Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='H7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='EasyJet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='U2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Edelweiss Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='EgyptAir', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='El Al', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Emirates ', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Eritrean Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='B8'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ethiopian Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ET'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Etihad Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Euro-Asia Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5B'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Eurowings ', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='EVA Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='ExpressJet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Far Eastern Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Fiji Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Finnair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Firefly', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='First Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7F'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Fly540', [AlternateDescription]='Five Forty'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5H'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Flybe', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Freedom Air (Guam)', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Frontier Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='F9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Gabon Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Garuda Indonesia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Gazpromavia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4G'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Georgian Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='A9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Georgian International', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4L'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Germanwings', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4U'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Gol Linhas Aéreos', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='G3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Grand China Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Grant Aviation', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Great Lakes Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Gulf Air Company', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Hageland Aviation Services', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='H6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Hahn Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Hainan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Hawaiian Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Helvetic Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='2L'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Hex Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='HK Express', [AlternateDescription]='Hong Kong Express'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Hong Kong Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Horizon Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Iberia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='IBEX Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Icelandair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Indian Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Indigo Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6E'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Indonesia AirAsia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Insel Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7I'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Interair South Africa', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='D6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='InterCaribbean Airways', [AlternateDescription]='Air Turks and Caicos'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Interjet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4O'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Iran Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Iran Aseman Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Iraqi Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Island Air Hawai', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Islas Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Israir', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6H'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ivoirienne de Transportes Aeriens', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='I3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='IZair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4I'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='JAL', [AlternateDescription]='Japan Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Japan Air Commuter', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3X'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Japan Transocean Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jatayu Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jazeera Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='J9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jet Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9W'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jet2.com', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='JetBlue', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='B6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='JetKonnect', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='S2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jetstar', [AlternateDescription]='Jetstar Pacific'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jetstar', [AlternateDescription]='Jetstar Asia'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3K'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jetstar', [AlternateDescription]='Jetstar Airways'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jin Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Jubba Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6J'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Juneyao Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kam Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Keewatin Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kenmore Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='M5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kenn Borek Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4K'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kenya Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Keystone Air Service', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kish Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='Y9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='KLM', [AlternateDescription]='KLM Cityhopper'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='KLM', [AlternateDescription]='KLM Royal Dutch Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Korean Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kulula', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Kuwait Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAM Mozambique Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAN', [AlternateDescription]='LAN Ecuador'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAN', [AlternateDescription]='LAN Argentina'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4M'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAN', [AlternateDescription]='LAN Colombia'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4C'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAN', [AlternateDescription]='LAN Express'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAN', [AlternateDescription]='LAN Perú'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LAN', [AlternateDescription]='LAN Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Lao Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LASER Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LGW', [AlternateDescription]='Luftfahrtgesellschaft Walter'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LIAT', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Libyan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='LOT Polish Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Lufthansa', [AlternateDescription]='Lufthansa'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Lufthansa', [AlternateDescription]='Lufthansa Express (CityLine)'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Luxair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Mahan Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='W5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Mahfooz Aviation Gambia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='M2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Malmo Aviation', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Mango Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Martinair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Master Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Med Airways', [AlternateDescription]='Flying Carpet'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7Y'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Meridiana Fly', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Mesa Airlines Inc', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='MIAT Mongolian Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Middle East Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ME'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Mihin Lanka', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Mokulele Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Montenergo Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Myanmar Airways International', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8M'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nationwide Airlines Zambia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4J'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nature Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5C'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nauru Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ON'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='NAYSA', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Neos', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nepal Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='New England Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Niki Luftfahrt', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nok Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nordavia Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5N'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='North Wright Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Northwestern Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='J3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Norwegian Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Nouvelair Tunisie', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='OLT Express Germany', [AlternateDescription]='Ostfriesisc Air'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Olympic Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Oman Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Omni Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Openskies', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Orenair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='R2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Orient Thai Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Overland Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Pacific Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3F'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Pacific Coastal Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8P'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Pakistan International Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Palau Pacific Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9P'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Pascan Aviation', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='P6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Pegasus Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='H9'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Pelican Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7V'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='PenAir', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='KS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Perimeter Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4B'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Philippine Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='PNG Air - Papua New Guinea', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Polynesian Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Porter Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Precision Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Primera Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Private Wings', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8W'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Proflight Zambia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='P0'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Provincial Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Qantas', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Qatar Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Quantum Air', [AlternateDescription]='Aebal'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ravn Alaska', [AlternateDescription]='Era Aviation'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7H'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Regional Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Regional CAE', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Regional Express', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Rossiya Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Royal Air Maroc', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='AT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Royal Bengal Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4A'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Royal Brunei Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Royal Jordanian', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Royal Wings', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Rwandair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ryanair', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='S7 Airlines', [AlternateDescription]='Siberian Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='S7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Safi Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4Q'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Saint Barth Commuter', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='San Juan Aviation', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SAS', [AlternateDescription]='Scandinavian Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SAS', [AlternateDescription]='SAS - Norway'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SATA', [AlternateDescription]='SATA Air Acores'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SATA', [AlternateDescription]='SATA International'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='S4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SATENA', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9N'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Saudia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SBA Airlines', [AlternateDescription]='Santa Barbara'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='S3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SCAT Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Seaborne Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Servant Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8D'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Servicios Aéreos Profesionales', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='5S'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Severstal Air Company', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='D2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Shaheen Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Shandong Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Shanghai Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='FM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Shenzhen Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='ZH'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Shuttle America', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='S5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sichuan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3U'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SilkAir', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Silver Airways', [AlternateDescription]='Gulfstream International'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='3M'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Singapore Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sky Airline', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='H2'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sky Express', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SkyWest Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Slok Air International', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='S0'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SmartLynx Airlines', [AlternateDescription]='Latcharter Air'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='6Y'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SmartWings', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='QS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Solomon Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='South African Airways', [AlternateDescription]='SA Express'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='South African Airways', [AlternateDescription]='South African Airways'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Southern Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Southwest Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SpiceJet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Spirit Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SriLankan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UL'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sriwijaya Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Star Perú', [AlternateDescription]='Star Up'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='2I'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='STP Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8F'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sudan Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SD'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sun Air Scandina', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EZ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sun Country Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sun D''Or Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='2U'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='SunExpress', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Sunwing Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Surinam Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Swiss International Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='LX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Syrian Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TAAG Angola Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TACV Cabo Verde Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tajik Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7J'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TAM Linhas Aerea Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='JJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tandem Aero', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TQ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TAP Air Portugal', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Taquan Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='K3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TAROM Romanian Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='RO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tassili Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Thai Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Thomas Cook Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Thomson Airways', [AlternateDescription]='Thomsonfly'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='BY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tianjin Airlines', [AlternateDescription]='Grand China Express'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tigerair', [AlternateDescription]='Tiger Airways'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Toumaï Air Tchad', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='9D'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Trans Air Benin', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='N4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Trans Air Congo', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='Q8'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TransAsia Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='GE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Transavia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HV'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TUI', [AlternateDescription]='TuiFly'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='X3'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TUI', [AlternateDescription]='Jetairfly'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='TUI', [AlternateDescription]='TUI Airlines Netherlands'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='OR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tunis Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Tunisair Express', [AlternateDescription]='Sevenair'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Turkish Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='TK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Turkmenistan Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='T5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Twin Jet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='T7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ukraine International Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='UM Airlines Ukraine', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='UNI Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='B7'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='United', [AlternateDescription]='United Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UA'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='United', [AlternateDescription]='United Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8X'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='United', [AlternateDescription]='United Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4H'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='United', [AlternateDescription]='Continental Airlines'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='CO'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='United', [AlternateDescription]='United Airways Express (CommutAir)'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='C5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Ural Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='U6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='UTair Aviation', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='UT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Uzbekistan Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Van Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='X4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Vieques Air Link', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VI'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Vietnam Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='VIM Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='NN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Virgin', [AlternateDescription]='Virgin Australia Regional Airlines (Skywest Air)'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XR'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Virgin', [AlternateDescription]='Virgin America'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VX'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Virgin', [AlternateDescription]='Virgin Atlantic'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Virgin', [AlternateDescription]='Virgin Blue'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='DJ'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='VLM Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VG'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Volaris', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='Y4'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Vueling Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='VY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wamos Air', [AlternateDescription]='Pullmantur Air'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='EB'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Warbelows Air Ventures', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4W'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wasaya Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WT'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Welcome Air', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='2W'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='West Air - China', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='PN'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='WestJet', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WS'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wideroes Flyvese', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Winair', [AlternateDescription]='Windward Island'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WM'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Windrose Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='7W'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wings Adabi Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IW'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wings of Alaska', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='K5'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wizz Air', [AlternateDescription]='Wizz Air Ukraine'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='WU'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wizz Air', [AlternateDescription]='Wizz Air'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='W6'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Wright Air Service', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='8V'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Xiamen Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='MF'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='XL Airways France', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='SE'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Xtra Airways', [AlternateDescription]='Casino Express'WHERE [TravelPreferenceAttributeId]=1 AND [Code]='XP'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Yakutia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='Y8'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Yamal Airlines', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='YC'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Yangon Airways', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='HK'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Yellow Air Taxi', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='Y0'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Yemenia', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='IY'
-UPDATE [MasterData].[TravelPreferenceAttributeValues]SET [Description]='Yute Air Alaska', [AlternateDescription]=''WHERE [TravelPreferenceAttributeId]=1 AND [Code]='4Y'
-DELETE FROM [HelloGByeDev].[MasterData].[TravelPreferenceAttributeValues] WHERE [TravelPreferenceAttributeValueId]=314
---INSERT INTO [MasterData].[TravelPreferenceAttributeValues]([TravelPreferenceAttributeValueId],[TravelPreferenceAttributeId],[Code],[Description],[AlternateDescription],[Order])VALUES (9,1,'RV','Caspian Airlines','',0)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2148 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4293 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (41 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (318 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4118 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2032 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3779 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4296 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4298 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4297 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (388 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3777 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (400 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2000 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3 ,minibar.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (142 ,bathrobes.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2854 ,partiallyOpenBathroom.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3726 ,partiallyOpenBathroom.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (141 ,partiallyOpenBathroom.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2036 ,partiallyOpenBathroom.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2371 ,partiallyOpenBathroom.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3501 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (148 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5013 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3601 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2170 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2168 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3858 ,bathtubOrShowerCopy.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (321 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4431 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5015 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2080 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2561 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2565 ,fretteItalianSheets.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (135 ,hypoAllergenicBeddingAvailable.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2034 ,premiumBedding.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2149 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2385 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743382 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2057 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2001 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3547 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (361 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2065 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2538 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (200 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4433 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4434 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4436 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4435 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3924 ,freeLocalCalls.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (139 ,freeLocalCalls.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3923 ,freeLocalCalls.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2112 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (331 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2177 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2067 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2151 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4699 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4700 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (38 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (6 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4695 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4696 ,inRoomChildcareSurcharge.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2186 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4697 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4698 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742764 ,airConditioning.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1 ,airConditioning.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2030 ,inRoomClimateControlAirConditioning.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743285 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (324 ,coffeeTeaMaker.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (132 ,coffeeTeaMaker.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3856 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5106 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3865 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2189 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (43 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3372 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (81 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4420 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2059 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4950 ,freeCribsInfantBeds.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2045 ,freeCribsInfantBeds.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4951 ,freeCribsInfantBeds.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5178 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2026 ,desk.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2378 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2559 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2150 ,blackoutDrapesCurtains.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4005 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743305 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743306 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2070 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743312 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2086 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743289 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743315 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (8 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (399 ,coffeeTeaMaker.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743293 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (147 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (317 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (9 ,fitness.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4468 ,fitness.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742765 ,fitness.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2178 ,fitness.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2048 ,fitness.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743388 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2063 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2064 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (375 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743383 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (378 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (322 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (44 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2617 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4111 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2386 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (144 ,hairDryer.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2180 ,hairDryer.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (40 ,hairDryer.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5054 ,fitness.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743284 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743372 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2056 ,turndownService.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3616 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (133 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742676 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4008 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742770 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3984 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3985 ,housekeeping.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4947 ,rainfallShowerhead.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2567 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2390 ,wiFi.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2403 ,wiFi.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2391 ,wiFi.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2404 ,wiFi.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2392 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2405 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2393 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2406 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742907 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742908 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2407 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2408 ,freeWiredHighSpeedInternet.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5105 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2807 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (145 ,ironironingNoard.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2055 ,ironironingNoard.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743304 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2158 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (5093 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742771 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (312 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742772 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (369 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2817 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (385 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2072 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743371 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4003 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2128 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2160 ,inRoomMassageAvailable.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2569 ,hypoAllergenicBeddingAvailable.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2571 ,hypoAllergenicBeddingAvailable.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2573 ,hypoAllergenicBeddingAvailable.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2577 ,hypoAllergenicBeddingAvailable.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3637 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2131 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2058 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2130 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742773 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (131 ,minibar.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (6142 ,minibar.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (6143 ,minibar.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2563 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2039 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2806 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2043 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743387 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2047 ,freeWeekdayNewspaper.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (128 ,freeWeekdayNewspaper.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742791 ,freeWeekdayNewspaper.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2031 ,freeWeekdayNewspaper.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2010 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2137 ,nonSmoking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743291 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3761 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4450 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4451 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4455 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4456 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742906 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4452 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4453 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2783 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3862 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3861 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3863 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3864 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4454 ,parking.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (136 ,phone.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4004 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2416 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4010 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2049 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2572 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743386 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2860 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2014 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742768 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (14 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2138 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742769 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (24 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2859 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2066 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2594 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (130 ,refrigeratorOnRequest.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2181 ,refrigeratorOnRequest.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742774 ,refrigeratorOnRequest.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2379 ,refrigeratorOnRequest.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (19 ,restaurant.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743316 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742815 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742816 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2044 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2053 ,roomServiceLimitedHours.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2015 ,roomServiceLimitedHours.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (20 ,roomServiceLimitedHours.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2789 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2790 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2016 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2568 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2389 ,inRoomSafeLaptopCompatible.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742775 ,inRoomSafeLaptopCompatible.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (146 ,inRoomSafeLaptopCompatible.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2135 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742766 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2035 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4954 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2370 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3857 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2037 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (45 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2183 ,partiallyOpenBathroom.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2166 ,rainfallShowerhead.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3502 ,rainfallShowerhead.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (10 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (56 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4007 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4006 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4428 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4429 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2942 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2943 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2944 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2945 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2946 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2947 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2528 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2529 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2948 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2949 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4421 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4422 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2136 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2950 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2951 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2082 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4423 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (354 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2162 ,slippers.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3269 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2349 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3500 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2038 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3911 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2054 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2123 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2017 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2129 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (371 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3859 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742767 ,deepSoakingBathtub.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2134 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743381 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2381 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4437 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4438 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2618 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3373 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3375 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4514 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (3912 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2387 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2387 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743373 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2025 ,designerToiletries.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (143 ,freeToiletries.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4467 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742865 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743370 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743385 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (26 ,cableTVService.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (372 ,cableTVService.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2399 ,lCDTV.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2402 ,lCDTV.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2575 ,lCDTV.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (6147 ,lCDTV.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2576 ,lCDTV.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073742776 ,cableTVService.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2398 ,cableTVService.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2397 ,cableTVService.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2081 ,premiumTVChannels.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2396 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4432 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2352 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2028 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743384 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (340 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (1073743311 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2819 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4174 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4175 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2818 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2167 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (121 ,disabled.png)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (4025 ,)
+INSERT INTO [MasterData].[ExpediaAmenityToIcon]([AmenityId],[IconUrl])VALUES (2515 ,)

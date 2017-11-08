@@ -1,9 +1,9 @@
-﻿using EO.Pdf;
-using NodaTime;
+﻿using NodaTime;
 using PlayGround.Model;
 using SharedComponent.Configurations;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Data.OleDb;
@@ -13,9 +13,23 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
+using AerospikeCacheService;
+using ClassLibraryA;
+using ClassLibraryA.Mapping;
+using ClassLibraryA.Model;
+using ClassLibraryA.Model.Exception;
+using ClassLibraryA.Utility;
+using FluentNHibernate.Cfg;
+using FluentNHibernate.Cfg.Db;
+using Newtonsoft.Json;
+using NHibernate;
+using NHibernate.Tool.hbm2ddl;
 
 namespace PlayGround
 {
@@ -54,12 +68,609 @@ namespace PlayGround
             //CultureTest();
             //NestedIfTest();
             //NestedForTest();
+            //TaskDelayTest();
+            //TaskResultTest();
+            //TaskDelayTest2();
+            //ExpediaImageFileLoadTest();
+            //ConfigElementCollectionTest();
+            //MsgPackTest();
+            //XmlReaderTest();
+            //LoadAmenities();
+            //FluentNhibernateTest();
+            //NofityChangeTest();
+            //AerospikeTest();
+            //AggregateExceptionTest();
+            //DecimalToStringTest();
+            //GenerateScriptForMessageId();
+            //UsingTest();
+            //StringSplitTest();
+            //ForeachTest();
+            //GenerateHexKey(args);
+            //SystemConvertTest();
             #endregion
-
-            TaskDelayTest();
+            FluentNhibernateCreatDbTest();
             Console.ReadLine();
         }
 
+        private static void SystemConvertTest()
+        {
+            var unknown = "asdfasdfasdfsdafs";
+            var date = Convert.ToDateTime(unknown);
+            Console.WriteLine(date);
+        }
+
+        private static void GenerateHexKey(string[] argv)
+        {
+            int len = 64;
+            if (argv.Length > 0)
+                len = int.Parse(argv[0]);
+            byte[] buff = new byte[len / 2];
+            RNGCryptoServiceProvider rng = new
+                                    RNGCryptoServiceProvider();
+            rng.GetBytes(buff);
+            StringBuilder sb = new StringBuilder(len);
+            for (int i = 0; i < buff.Length; i++)
+                sb.Append(string.Format("{0:X2}", buff[i]));
+            Console.WriteLine(sb);
+        }
+
+        private static void ForeachTest()
+        {
+            List<string> l = null;
+            foreach (var x in l)
+            {
+                Console.WriteLine("hi");
+            }
+            Console.WriteLine("good");
+        }
+
+        private static void StringSplitTest()
+        {
+            var originalEmail = "bookings@hellogbye.com";
+            var splitEmail = originalEmail.Split('@');
+            Console.WriteLine(splitEmail);
+        }
+
+        private static void UsingTest()
+        {
+            SqlConnection shouldBeDisposed;
+            using (shouldBeDisposed = new SqlConnection(""))
+            {
+                Console.WriteLine(shouldBeDisposed.State.ToString());
+            }    
+        }
+
+        private static void GenerateScriptForMessageId()
+        {
+            var names = typeof(MessageId).GetAllPublicConstantNames<string>();
+            var englishTemplate =
+                "INSERT INTO [MasterData].[LocalizedMessage]([MessageId],[LanguageCode],[CultureCode],[PlatformId],[MessageText],[AddedDateTime],[ModifiedDateTime],[MessageTitle])"
+                +
+                "VALUES('{0}', 'en', 'US', 'Web', '{0}' , GETDATE(), GETDATE(), '{0}')";
+
+            var defaultTemplate = 
+                "INSERT INTO[MasterData].[LocalizedMessage]([MessageId],[LanguageCode],[CultureCode],[PlatformId],[MessageText],[AddedDateTime],[ModifiedDateTime],[MessageTitle])"
+                +
+                " VALUES('{0}',null,null,null,'{0}' , GETDATE(),GETDATE(),'{0}')";
+
+            File.WriteAllLines("NewMessageIds.sql", names.Select(n=>string.Format(englishTemplate,n)).ToList().Union(names.Select(n=>string.Format(defaultTemplate,n))));
+
+
+            Console.WriteLine(names.Count);
+        }
+
+        public class Classx
+        {
+            public Classx()
+            {
+                    
+            }
+
+            public List<string> TextList { get; set; }
+
+            public void Test()
+            {
+                foreach (var text in TextList)
+                {
+                    
+                }
+            }
+        }
+
+        private static void AggregateExceptionTest()
+        {
+            Task<string[]>[] tasks = new Task<string[]>[1];
+            tasks[0] = Task<string[]>.Factory.StartNew(() => {throw new PlayGroundException(false);});
+            //tasks[1] = Task<string[]>.Factory.StartNew(() => { throw new PlayGroundException(true); });
+            //tasks[2] = Task<string[]>.Factory.StartNew(() => {throw new NotImplementedException();});
+
+            try
+            {
+                Task.WaitAll(tasks);
+            }
+            catch (PlayGroundException pge)
+            {
+                throw pge;
+            }
+            catch (AggregateException ae)
+            {
+                throw ae.Flatten();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        private static void AerospikeTest()
+        {
+            var cacheService = new BaseCacheService();
+            var obj = new HotelImage()
+            {
+                Caption = "c",
+                DefaultImage = true,
+                Height = 1,
+                Image = "I",
+                Width = 2
+            };
+            if (cacheService.SetValue("myKey1", obj,ttlSec:3))
+            {
+                var objShouldNotExpire = new HotelImage()
+                {
+                    Caption = "c",
+                    DefaultImage = true,
+                    Height = 1,
+                    Image = "I",
+                    Width = 2
+                };
+                cacheService.SetValue("myKey2", objShouldNotExpire);
+                var obj2 = cacheService.GetValue<HotelImage>("myKey1");
+                var objShouldNotExpire2 = cacheService.GetValue<HotelImage>("myKey2");
+                Console.WriteLine(obj2.SerializeToStringWithDefaultSettings());
+                Console.WriteLine(objShouldNotExpire2.SerializeToStringWithDefaultSettings());
+            }
+        }
+
+        private static void NofityChangeTest()
+        {
+            //var c1 = new ShouldNotifyChangeModel()
+            //{
+            //    ClassProperty = new Class1(),
+            //    NameProperty = "name1",
+            //    NumberProperty = 1
+            //};
+            ////c1.PropertyChanged += HandlePropertyChanged;
+
+            //c1.NameProperty = "name 1 changed";
+            //c1.NumberProperty = 2;
+            //c1.ClassProperty = new Class1();
+
+            //var c2 = new ShouldNotifyChangeModel()
+            //{
+            //    ClassProperty = new Class1(),
+            //    NameProperty = "name2",
+            //    NumberProperty = 2
+            //};
+            //c1 = c2;//this do not raise any event
+
+            //var p1 = new Class1() {FirstName = "f1",LastName = "l1"};
+            ////((INotifyPropertyChanged)p1).PropertyChanged += HandlePropertyChanged;
+            //p1.FirstName = "f2";
+            //p1.LastName = "l2";
+            //p1= new Class1();//this do not raise any event
+
+            //var level2 = new Level2Class1();
+            ////var p2 = new Class1("f", "l", level2, false);
+            //var p2 = new Class1();
+            //p2.FirstName = "new first name";
+            //p2.LastName = "new last name";
+            //p2.Level2Class1 = level2;
+            //p2.Level2Class1.Level2Name = "new name";
+            //p2.Level2Class1.Level2Phone = "new phone";
+            ////p2.FirstName = "l2";
+
+            //var stringP2 = JsonConvert.SerializeObject(p2);
+            //var p3 = JsonConvert.DeserializeObject<Class1>(stringP2);
+
+
+        }
+
+        private static void HandlePropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            Console.WriteLine("{0} has changed",e.PropertyName);
+        }
+
+        private static void FluentNhibernateCreatDbTest()
+        {
+            var sessionFactory = CreateSessionFactory();
+            
+            using (var session = sessionFactory.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    var product = new Product()
+                    {
+                        Id = Guid.NewGuid(),
+                        Name = "a",
+                        Category = "1",
+                        Discontinued = false
+                    };
+                    session.SaveOrUpdate(product);
+                    transaction.Commit();
+                }
+            }
+        }
+
+        private static void FluentNhibernateTest()
+        {
+            var sessionFactory = CreateSessionFactory();
+
+            using (var session = sessionFactory.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    // create a couple of AirlinePointsProgram
+                    var p1 = new AirlinePointsProgram
+                    {
+                        Id = 1,
+                        ProgramName = "Program 1",
+                        AirlineIATACode = "AA",
+                        Country = "American"
+                    };
+
+                    var p2 = new AirlinePointsProgram
+                    {
+                        Id = 2,
+                        ProgramName = "Program 2",
+                        AirlineIATACode = "BB",
+                        Country = "Brazil"
+                    };
+
+                    var p3 = new AirlinePointsProgram
+                    {
+                        Id = 3,
+                        ProgramName = "Program 3",
+                        AirlineIATACode = "CC",
+                        Country = "Canada"
+                    };
+
+                    var p4 = new AirlinePointsProgram
+                    {
+                        Id = 4,
+                        ProgramName = "Program 4",
+                        AirlineIATACode = "DD",
+                        Country = "Dutch"
+                    };
+
+                    // save all AirlinePointsProgram
+                    session.SaveOrUpdate(p1);
+                    session.SaveOrUpdate(p2);
+                    session.SaveOrUpdate(p3);
+                    session.SaveOrUpdate(p4);
+
+                    transaction.Commit();
+                }
+
+                using (var transaction = session.BeginTransaction())
+                {
+                    var p1 = new AirlinePointsProgram
+                    {
+                        Id = 1,
+                        ProgramName = "Program 1",
+                        AirlineIATACode = "AA",
+                        Country = "American"
+                    };
+
+                    var p0 = new AirlinePointsProgram
+                    {
+                        Id = 0,
+                        ProgramName = "Program 0",
+                        AirlineIATACode = "oo",
+                        Country = "o"
+                    };
+
+                    //Create a UserAirlinePointsProgram
+                    var userProgram1 = new UserAirlinePointsProgram
+                    {
+                        Id = 11,
+                        Program = p1,
+                        ProgramNumber = "0000-1111-2222-3333",
+                        UserProfileId = Guid.Parse("54325A10-A672-48FE-B428-0000D74F781C")
+                    };
+
+                    var userProgram2 = new UserAirlinePointsProgram
+                    {
+                        Id = 22,
+                        Program = p0,
+                        ProgramNumber = "some number",
+                        UserProfileId = Guid.Parse("54325A10-A672-48FE-B428-0000D74F781C")
+                    };
+
+                    session.SaveOrUpdate(userProgram1);
+                    session.SaveOrUpdate(userProgram2);
+
+                    transaction.Commit();
+                }
+
+                Console.ReadKey();
+            }
+        }
+
+        private static ISessionFactory CreateSessionFactory()
+        {
+            var connectionString = @"Data Source=.\SQLEXPRESS;Initial Catalog=NhibernateTest;Integrated Security=true;MultipleActiveResultSets=True;";
+            return Fluently.Configure() 
+              .Database(MsSqlConfiguration.MsSql2012.ConnectionString(connectionString).ShowSql())
+              .Mappings(m =>
+                //m.FluentMappings.AddFromAssemblyOf<AirlinePointsProgram>())
+                m.FluentMappings.Add<ProductMap>())
+              .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true,true))
+              //.ExposeConfiguration(cfg => new SchemaUpdate(cfg).Execute(false, true))
+              .BuildConfiguration()
+              .BuildSessionFactory();
+        }
+
+        private static void LoadAmenities()
+        {
+            //Read spreadsheet
+            DataTable sheetData = new DataTable();
+            using (OleDbConnection conn = ReturnConnection("../../Amenities Mapping (Expedia).xlsx"))
+            {
+                conn.Open();
+                // retrieve the data using data adapter
+                OleDbDataAdapter sheetAdapter = new OleDbDataAdapter("select * from [Expedia Mapping to Icons$]", conn);
+                sheetAdapter.Fill(sheetData);
+            }
+
+            //Read all Expedia Amenities from DB
+            var expediaPropertyAmenityDict = new Dictionary<string, int>();//Amenity 
+            var expediaRoomAmenityDict = new Dictionary<string, int>();//Amenity description to expedia attribute Id
+            using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["HelloGbyeDev"].ConnectionString))
+            {
+                var query = "SELECT [AttributeID],[AttributeDesc] FROM [HelloGByeDev].[dbo].[AttributeList] where [Type] = 'PropertyAmenity'";
+                var command = new SqlCommand(query, connection);
+                connection.Open();
+                var reader = command.ExecuteReader();
+                try
+                {
+                    while (reader.Read())
+                    {
+                        expediaPropertyAmenityDict.Add(reader.GetString(1), reader.GetInt32(0));
+                    }
+                    reader.Dispose();
+                    query = "SELECT [AttributeID],[AttributeDesc] FROM [HelloGByeDev].[dbo].[AttributeList] where [Type] = 'RoomAmenity'";
+                    command = new SqlCommand(query, connection);
+                    reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        expediaRoomAmenityDict.Add(reader.GetString(1), reader.GetInt32(0));
+                    }
+                }
+                finally
+                {
+                    // Always call Close when done reading.
+                    reader.Close();
+                }
+            }
+
+            //For each entry in spreadsheet, find Id by name in Expedia Amenities
+            //And write Id and iconUrl to .sql file
+            using (var writer = new StreamWriter("../../PopulateAmenityToIcon.sql"))
+            {
+                var insertTemplate =
+                    "INSERT INTO [MasterData].[ExpediaAmenityToIcon]"+
+                    "([AmenityId],[IconUrl])"+
+                    "VALUES ('{0}', '{1}')";
+                foreach (DataRow row in sheetData.Rows)
+                {
+                    var description = Convert.ToString(row[1]);
+                    var iconUrl = Convert.ToString(row[2]);
+                    if (string.IsNullOrEmpty(iconUrl)) continue;
+                    if (expediaPropertyAmenityDict.ContainsKey(description))
+                    {
+                        writer.WriteLine(insertTemplate, expediaPropertyAmenityDict[description], iconUrl);
+                    }
+                    if (expediaRoomAmenityDict.ContainsKey(description))
+                    {
+                        writer.WriteLine(insertTemplate, expediaRoomAmenityDict[description], iconUrl);
+                    }
+                }
+            }
+        }
+
+
+
+        #region Test Methods
+        private static void XmlReaderTest()
+        {
+            var string1 = File.ReadAllText("N38XNQ.xml");
+            var x = GetVenderRecordLocators(string1);
+            foreach (var item in x)
+            {
+                Console.WriteLine(item);
+            }
+            string1 = File.ReadAllText("ZQJNDG.xml");
+            x = GetVenderRecordLocators(string1);
+            foreach (var item in x)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        private static List<string> GetVenderRecordLocators(string pnrResponseXml)
+        {
+            var venderRecordLocators = new List<string>();
+            using (XmlReader reader = XmlReader.Create(new StringReader(pnrResponseXml)))
+            {
+                while (reader.ReadToFollowing("RecLocInfo"))
+                {
+                    reader.ReadToFollowing("RecLoc");
+                    reader.Read();
+                    venderRecordLocators.Add(reader.Value);
+                }
+            }
+            return venderRecordLocators;
+        }
+        private static void MsgPackTest()
+        {
+            //var baseAirport = new AirportBase
+            //{
+            //    AirportCityMapID = 1,
+            //    AirportCode = "YYZ",
+            //    AirportName = "Pearson",
+            //    CategoryCountryCode = "Category_CA",
+            //    CityCode = "CA_01",
+            //    CityName = "Toronto",
+            //    Country = "Canada",
+            //    CountryCode = "CA",
+            //    DefaultDisplay = false,
+            //    DestinationCategory = "Destination_1",
+            //    HilightCountry = false,
+            //    IsMetroCode = false,
+            //    Latitude = 0,
+            //    Longitude = 0,
+            //    RegionCode = "ON",
+            //    RegionName = "Ontario",
+            //    SelectionOrder = 1,
+            //    SkipRow = 0,
+            //    State = "state",
+            //    //TimeZone="EST"
+            //};
+            var msgSerilizer = new MsgSerilizer();
+            //byte[] stream = msgSerilizer.Serialize<AirportBase>(baseAirport);
+            //var fileStream = File.OpenWrite(@"c:\msg.txt");
+            //fileStream.Write(stream,0,stream.Length);
+            //fileStream.Close();
+            //var advancedAirport = msgSerilizer.Deserialize<AirportBase>(File.ReadAllBytes(@"c:\msg.txt"));
+            //Console.WriteLine(advancedAirport.Landscape);
+
+            var publicModel1 = new MsgPackPublicModel();
+            publicModel1.Mpublic = 11;
+            publicModel1.SetMprotected(12);
+            publicModel1.SetMprivate(13);
+            var publicModel2 = new MsgPackPublicModel();
+            publicModel2.Mpublic = 21;
+            publicModel2.SetMprotected(22);
+            publicModel2.SetMprivate(23);
+            var publicModel3 = new MsgPackPublicModel();
+            publicModel3.Mpublic = 31;
+            publicModel3.SetMprotected(32);
+            publicModel3.SetMprivate(33);
+            var testModel = new MsgTestModel()
+            {
+                Xpub = 1,
+                PublicModel = publicModel1,
+            };
+            testModel.SetList(new List<MsgPackPublicModel>() { publicModel2, publicModel3 });
+            //Serialize
+            byte[] stream = msgSerilizer.Serialize<MsgTestModel>(testModel);
+            var fileStream = File.OpenWrite(@"c:\msg.txt");
+            fileStream.Write(stream, 0, stream.Length);
+            fileStream.Close();
+            //Deserialize
+            var advancedTestModel = msgSerilizer.Deserialize<MsgTestModel>(File.ReadAllBytes(@"c:\msg.txt"));
+            Console.WriteLine(advancedTestModel.Ypub);
+        }
+
+        private static void ConfigElementCollectionTest()
+        {
+            PlayGroundConfigSection x = (PlayGroundConfigSection)ConfigurationManager.GetSection("playGroundGroup/playGround");
+            var collection = x.Currencies;
+            var usdElement = collection.GetByName("USD");
+            Console.WriteLine(usdElement.Name);
+            //Console.WriteLine("Is in Use: {0}", x.InUse);
+            //Console.WriteLine("Name : {0}, Age :{1}", x.Author.Name, x.Author.Age);
+        }
+        private static void ExpediaImageFileLoadTest()
+        {
+            int prevHotelId = -1;
+            List<LocalImages> localImgs = new List<LocalImages>();
+
+            foreach (var imgRow in DelimitedFile.Read<LocalImages>(@"C:\Expedia Dump\HotelImageList.txt"))
+            {
+                if (prevHotelId == -1)
+                {
+                    localImgs.Add(imgRow);
+                }
+                else if (prevHotelId != -1 && imgRow.EANHotelID == prevHotelId)
+                {
+                    localImgs.Add(imgRow);
+                }
+                else if (prevHotelId != -1 && imgRow.EANHotelID != prevHotelId)
+                {
+                    if (localImgs.Count > 0)
+                    {
+                        //TODO:dump localImgs into hotel
+                        Console.WriteLine($"{imgRow.EANHotelID} : {localImgs.Count} pics");
+                        //Hotel obj = hotelList.FirstOrDefault(t => t.HotelCode == prevHotelId);
+                        foreach (var localImg in localImgs)
+                        {
+                            CreateImage(localImg);
+                        }
+                        localImgs = new List<LocalImages>();
+                    }
+                    localImgs.Add(imgRow);
+                }
+                prevHotelId = imgRow.EANHotelID;
+            }
+        }
+        private static HotelImage CreateImage(LocalImages img)
+        {
+            HotelImage image = new HotelImage();
+            image.Caption = img.Caption;
+            image.DefaultImage = img.DefaultImage;
+            image.Image = img.URL;
+            image.Height = img.Height;
+            image.Width = img.Width;
+            return image;
+        }
+        private static void PdfTest()
+        {
+            //EO.Pdf.Runtime.AddLicense(
+            //    "DFmXpM0X6Jzc8gQQyJ21vMTitWuoucjbt3Wm8PoO5Kfq6doPvUaBpLHLn3Xj" +
+            //    "7fQQ7azc6c/nrqXg5/YZ8p7cwp61n1mXpM0M66Xm+8+4iVmXpLHLn1mXwPIP" +
+            //    "41nr/QEQvFu807/745+ZpAcQ8azg8//ooWqtssHNn2i1kZvLn1mXwMAM66Xm" +
+            //    "+8+4iVmXpLHn7qvb6QP07Z/mpPUM8560psbas2iptMLhoVnq+fPw96ng9vYe" +
+            //    "wK20psbas2iptMLioVnt6QMe6KjlwbPctVuXs8+4iVmXpLHn8qLe8vIf9Kvc" +
+            //    "wgUc1JPF2MjfsHLp6QPc8obw7egh9qC0wc3a8qLe8vIf9Kvcwp61u2jj7fQQ" +
+            //    "7azcwp61dePt9BDtrNzCnrWf");
+            //var html = File.ReadAllText("eticket_template.html");
+            //var stopWatch = Stopwatch.StartNew();
+            ////HtmlToPdf.Options.VisibleElementIds = "xxx";
+            //HtmlToPdf.Options.PageSize = PdfPageSizes.A5;
+            //HtmlToPdf.Options.OutputArea = new RectangleF(0f, 0f, 5.8f, 8.3f);
+            //HtmlToPdf.ConvertHtml(html, "eticket_template.pdf");
+            //var converter = new SelectPdf.HtmlToPdf();
+            ////converter.Options.JavaScriptEnabled = false;
+            ////SelectPdf.HtmlToPdfOptions.MaximumConcurrentConversions = 2;
+            //converter.Options.InternalLinksEnabled = false;
+            //converter.Options.PdfDocumentInformation.Author = "HelloGbye";
+            //converter.Options.PdfPageSize = SelectPdf.PdfPageSize.Letter;
+            //converter.Options.JpegCompressionEnabled = false;
+            ////converter.Options.PdfCompressionLevel = SelectPdf.PdfCompressionLevel.NoCompression;
+            //var pdf = converter.ConvertHtmlString(html);
+            //pdf.Save("hotel.pdf");
+            //pdf.Close();
+            //stopWatch.Stop();
+            //Console.WriteLine(stopWatch.ElapsedMilliseconds);
+        }
+        private static void TaskDelayTest2()
+        {
+            Stopwatch sw = Stopwatch.StartNew();
+            var delay = Task.Delay(1000).ContinueWith(_ =>
+            {
+                sw.Stop();
+                return sw.ElapsedMilliseconds;
+            });
+
+            Console.WriteLine("Elapsed milliseconds: {0}", delay.Result);
+        }
+        private static void TaskResultTest()
+        {
+            var t1 = new Task<int>(() => 9 + 1);
+            var t2 = t1.ContinueWith((x) => x.Result + 1);
+            t1.Wait();
+            Console.WriteLine(t2.Result);
+        }
         private static void TaskDelayTest()
         {
             var source = new CancellationTokenSource();
@@ -83,8 +694,6 @@ namespace PlayGround
                 Console.Write(", Result: {0}", t.Result);
             source.Dispose();
         }
-
-        #region Test Methods
         private static void NestedForTest()
         {
             for (int i = 0; i < 3; i++)
@@ -135,27 +744,7 @@ namespace PlayGround
             }
         }
 
-        private static void PdfTest()
-        {
-            var html = File.ReadAllText("booking_hotel_confirmation.html");
-            var stopWatch = Stopwatch.StartNew();
-            HtmlToPdf.Options.PageSize = PdfPageSizes.Letter;
-            HtmlToPdf.Options.OutputArea = new RectangleF(0f, 0f, 8.5f, 11f);
-            HtmlToPdf.ConvertHtml(html, "hotel.pdf");
-            //var converter = new SelectPdf.HtmlToPdf();
-            ////converter.Options.JavaScriptEnabled = false;
-            ////SelectPdf.HtmlToPdfOptions.MaximumConcurrentConversions = 2;
-            //converter.Options.InternalLinksEnabled = false;
-            //converter.Options.PdfDocumentInformation.Author = "HelloGbye";
-            //converter.Options.PdfPageSize = SelectPdf.PdfPageSize.Letter;
-            //converter.Options.JpegCompressionEnabled = false;
-            ////converter.Options.PdfCompressionLevel = SelectPdf.PdfCompressionLevel.NoCompression;
-            //var pdf = converter.ConvertHtmlString(html);
-            //pdf.Save("hotel.pdf");
-            //pdf.Close();
-            stopWatch.Stop();
-            Console.WriteLine(stopWatch.ElapsedMilliseconds);
-        }
+        
 
         private static void NullAsSomething()
         {
@@ -425,11 +1014,20 @@ namespace PlayGround
         private static void DecimalToStringTest()
         {
             decimal d = 1234.5676m;
+            float f = 1234.5676f;
+            double doub = 1234.5678d;
             Console.WriteLine(d.ToString("F0"));
             Console.WriteLine(d.ToString("F1"));
-            Console.WriteLine(d.ToString("F2"));
+            Console.WriteLine(d.ToString("F20"));
             Console.WriteLine(d.ToString());
+
+            Console.WriteLine(f.ToString("F20"));
+            Console.WriteLine(doub.ToString("F20"));
             Console.WriteLine(d);
+
+
+            Console.WriteLine(((decimal)(121/1.3)).ToString("F20"));
+            Console.WriteLine(((double)(121/1.3)).ToString("F20"));
         }
 
         private static void TimeZoneTest()
@@ -455,10 +1053,10 @@ namespace PlayGround
         private static void PhoneNumberValidationTest()
         {
             var invalidArray = new[] { "0120120000", "(012)0120000", "(012)012-0000", "(012)-0120000", "(012)-012-0000", "1(012)-012-0000", "+1(012)-012-0000", "+10120120000" };
-            foreach (var s in stringArray)
-            {
-                Console.WriteLine("{0} is {1}", s, IsValidPhoneNumber(s));
-            }
+            //foreach (var s in stringArray)
+            //{
+            //    Console.WriteLine("{0} is {1}", s, IsValidPhoneNumber(s));
+            //}
             foreach (var s in invalidArray)
             {
                 Console.WriteLine("{0} is {1}", s, IsValidPhoneNumber(s));

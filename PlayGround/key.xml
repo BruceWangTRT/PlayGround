@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns="namespace1">
+  <A>
+    <!-- if the ref-number is equal to one of the key-number, the validation will pass -->
+    <part ref-number="1"/>
+  </A>
+  <A>
+    <!-- if the ref-number is not equal to one of the key-number, the validation will give error -->
+    <part ref-number="5"/>
+  </A>
+  <B>
+    <part key-number="1"/>
+    <part key-number="2"/>
+    <part key-number="3"/>
+  </B>
+</root><!--you will see warnings here-->
