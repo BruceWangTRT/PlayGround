@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{17628FD4-5FA8-41B2-8575-9C424C9D1136}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{C2AB65C9-1BC8-4F82-B4FE-8A9683C426DB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AerospikeCacheService", "AerospikeCacheService\AerospikeCacheService.csproj", "{5C604649-C421-4AC4-B81B-34B006E89E86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopShelfWinService", "TopShelfWinService\TopShelfWinService.csproj", "{6FF43BB4-B33D-4900-B85E-444F14D42E77}"
@@ -55,6 +57,10 @@ Global
 		{17628FD4-5FA8-41B2-8575-9C424C9D1136}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17628FD4-5FA8-41B2-8575-9C424C9D1136}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17628FD4-5FA8-41B2-8575-9C424C9D1136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AB65C9-1BC8-4F82-B4FE-8A9683C426DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AB65C9-1BC8-4F82-B4FE-8A9683C426DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AB65C9-1BC8-4F82-B4FE-8A9683C426DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AB65C9-1BC8-4F82-B4FE-8A9683C426DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5C604649-C421-4AC4-B81B-34B006E89E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5C604649-C421-4AC4-B81B-34B006E89E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C604649-C421-4AC4-B81B-34B006E89E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
