@@ -9,12 +9,12 @@ namespace Receive
     {
         static void Main(string[] args)
         {
-            var factory = new ConnectionFactory() { HostName = "localhost" };
+            var factory = new ConnectionFactory() { HostName = "localhost", UserName = "ronanavi", Password = "ronanavi" };
             using (var connection = factory.CreateConnection())
             {
                 using (var channel = connection.CreateModel())
                 {
-                    //channel.QueueDeclare(queue: "logging",
+                    //channel.QueueDeclare(queue: "Hello",
                     //                 durable: false,
                     //                 exclusive: false,
                     //                 autoDelete: false,
@@ -27,7 +27,7 @@ namespace Receive
                         var message = Encoding.UTF8.GetString(body);
                         Console.WriteLine(" [x] Received {0}", message);
                     };
-                    channel.BasicConsume(queue: "logging",
+                    channel.BasicConsume(queue: "hello",
                         noAck: true,
                         consumer: consumer);
 
