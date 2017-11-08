@@ -11,8 +11,6 @@ namespace SharedComponent.Configurations
             set { this["inUse"] = value; }
         }
 
-
-
         [ConfigurationProperty("author")]
         public AuthorElement Author
         {
@@ -20,5 +18,14 @@ namespace SharedComponent.Configurations
             set { this["author"] = value; }
         }
 
+        [ConfigurationProperty("currencies")]
+        [ConfigurationCollection(typeof(CurrencyCollection), AddItemName = "currency")]
+        public CurrencyCollection Currencies
+        {
+            get
+            {
+                return (CurrencyCollection)base["currencies"];
+            }
+        }
     }
 }

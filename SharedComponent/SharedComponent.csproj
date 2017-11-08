@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurations\AuthorElement.cs" />
+    <Compile Include="Configurations\CurrencyCollection.cs" />
+    <Compile Include="Configurations\CurrencyElement.cs" />
     <Compile Include="Configurations\PlayGroundConfigSection.cs" />
+    <Compile Include="Configurations\TravelPortElement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
